@@ -404,12 +404,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
-# Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
- PRODUCT_BOOT_JARS += \
-    telephony-ext
-
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
